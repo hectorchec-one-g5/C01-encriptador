@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Challenge ONE - Sprint 01 - Encriptador</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="assets/img/logo.svg" alt="Alura" />
+        </header>
+        <main>
+            <textarea name="textoAEncriptar" id="textoAEncriptar" cols="30" rows="10" placeholder="Ingrese texto aquí"></textarea>
+            <section class="info">
+                <img src="assets/img/bi_exclamation-circle-fill.svg" alt="information" />
+                <span>Solo letras minúsculas y sin acentos</span>
+            </section>
+            <section class="buttons-container">
+                <button id="encriptBtn" class="dark-blue">
+                    Encriptar
+                </button>
+                <button id="decryptBtn">
+                    Desencriptar
+                </button>
+            </section>
+        </main>
+        <section class="card">
+            <div id="emptyResult">
+                <img src="assets/img/empty.svg" alt="" />
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>
+                    Ingresa el texto que desees encriptar o desencriptar
+                </p>
+            </div>
+            <div id="validResult" class="hidden">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.
+                </p>
+                <button id="copyBtn">Copiar</button>
+            </div>
+        </section>
+    </body>
+</html>
